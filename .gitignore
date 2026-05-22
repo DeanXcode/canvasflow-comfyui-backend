@@ -1,0 +1,39 @@
+# Python and runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environments
+.venv/
+venv/
+env/
+python/
+.comfy_environment
+
+# Large/local ComfyUI data
+models/
+input/
+output/
+temp/
+user/
+web_custom_versions/
+
+# Local model path overrides
+extra_model_paths.yaml
+
+# Logs and generated artifacts
+*.log
+*.tmp
+*.temp
+filtered-openapi.yaml
+uv.lock
+
+# Editor/OS files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Nested repos from vendored custom nodes are flattened into this repo.
+**/.git/
